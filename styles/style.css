@@ -1,0 +1,86 @@
+@import url("./layout.css");
+
+#header-option-3 {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(73, 77, 105);
+  height: 100px;
+  padding: 0px 100px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  margin: 30px 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+article img {
+  height: 200px;
+  width: 200px;
+}
+
+article p {
+  margin: 10px 0px;
+  padding-left: 15px;
+}
+
+.price-btn {
+  width: 100%;
+  padding: 15px 0px;
+  text-align: center;
+  background-color: rgb(55, 55, 55);
+  color: white;
+}
+
+aside {
+  margin: 30px 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 20px;
+  margin-right: 100px;
+  width: 300px;
+}
+
+aside h2 {
+  height: 100px;
+  padding: 0px 20px;
+  background-color: rgb(55, 55, 55);
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.text {
+  margin: 8px 0px;
+}
+
+.aside-bottom {
+  width: 100%;
+  padding: 15px;
+  background-color: rgb(55, 55, 55);
+  color: white;
+}
